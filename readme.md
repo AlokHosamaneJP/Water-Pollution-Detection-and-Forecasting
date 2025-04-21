@@ -8,7 +8,7 @@ This repository contains a complete machine learning pipeline to **predict water
 
 Clean water is a fundamental human need. This project leverages data science to determine whether a water sample is **potable (safe to drink)** or **non-potable** based on measurable chemical attributes.
 
-> 🔎 **Model Accuracy**: ~68% on the test set using a tuned `RandomForestClassifier`.
+> 🔎 **Model Accuracy**: ~70% on the test set using a tuned `RandomForestClassifier`.
 
 ---
 
