@@ -1,5 +1,3 @@
-# Inside streamlit_app.py
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -11,7 +9,7 @@ import matplotlib.pyplot as plt
 # Load model
 model = joblib.load('models/final_water_quality_model.pkl')
 
-# Load X_train for SHAP and LIME (must match training features)
+# Load X_train for SHAP and LIME 
 X_train = pd.read_csv('data/X_train_for_explainers.csv')  # Ensure this file exists
 
 st.title("💧 Water Potability Predictor with Explanations")
